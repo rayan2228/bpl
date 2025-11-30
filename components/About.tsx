@@ -15,7 +15,7 @@ const About = () => {
                     
                     {/* LEFT SECTION */}
                     <div className="flex-1 text-primary-color-four">
-                        <h4 className="bg-primary-color-four text-primary-color-one font-semibold inline-block p-2 rounded-full tracking-widest">
+                        <h4 className="bg-primary-color-four text-primary-color-one font-semibold inline-block p-2 rounded-full tracking-widest border border-primary-color-one">
                             THE ROYAL ORIGIN
                         </h4>
 
@@ -57,7 +57,7 @@ const About = () => {
                     </div>
 
                     {/* RIGHT SECTION */}
-                    <div className="w-full lg:w-[610px] relative flex justify-center lg:justify-end">
+                    <div className="w-full lg:w-[530px] relative flex justify-center lg:justify-end">
                         <Image src={aboutImg} alt="about" className="w-full max-w-[500px] lg:max-w-none" />
                         <Image 
                             src={seasonImg} 
