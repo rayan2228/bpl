@@ -77,7 +77,7 @@ At Chattogram Royals, we're building more than a team – we're building a legac
                             </p>
 
 
-                            <h6 className="text-sm relative after:w-12 after:h-0.5 after:bg-primary-color-four after:absolute after:left-0 after:top-1/2 after:content-[''] pl-6">
+                            <h6 className="text-sm relative after:w-12 after:h-0.5 after:bg-primary-color-four after:absolute after:left-0 after:top-1/2 after:content-[''] pl-15">
                                 Habibul Bashar Sumon
                             </h6>
                         </div>
