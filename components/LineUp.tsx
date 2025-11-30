@@ -48,7 +48,10 @@ const LineUp = () => {
             </h2>
 
             <div className="container">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 relative z-50">
+                    <div className="absolute inset-0 top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] -z-10 flex justify-center">
+                        <div className="w-[80%] h-[300px] bg-[#017CFF] opacity-40 blur-3xl rounded-full shadow-[0_0_60px_20px_rgba(1,124,255,0.7)]"></div>
+                    </div>
                     {players.map((p, i) => (
                         <div
                             key={i}
@@ -70,7 +73,7 @@ const LineUp = () => {
                                 </div>
 
                                 {/* Text Content */}
-                                <div className="mt-4 flex flex-col flex-grow">
+                                <div className="mt-4 flex flex-col grow">
                                     <h4 className="text-2xl font-medium">{p.name}</h4>
 
                                     <h5 className="text-gray-200 pb-6 mb-6 border-b border-gray-100/50 mt-1.5">
