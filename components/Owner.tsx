@@ -12,7 +12,7 @@ const stats = [
 
 const Owner = () => {
     return (
-        <section className="py-20 md:py-[180px]">
+        <section className="py-20 md:py-[180px] px-2 md:px-0">
             <div className="container">
 
                 {/* MAIN WRAPPER */}

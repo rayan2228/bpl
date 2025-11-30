@@ -7,7 +7,7 @@ import powerIcon from "@/assets/icons/power.svg"
 
 const About = () => {
     return (
-        <section className="py-20 md:py-[180px]" id="about">
+        <section className="py-20 md:py-[180px] px-2 md:px-0" id="about">
             <div className="container">
                 
                 {/* Responsive Wrapper */}

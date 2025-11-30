@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
     return (
-        <section className="relative w-full py-[400px] ">
+        <section className="relative w-full py-[400px] px-2 md:px-0">
 
             {/* Background Image */}
             <div className="absolute inset-0">
@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-black/40"></div>
 
             {/* Text Content */}
-            <div className="absolute bottom-16 md:bottom-30 left-1/2 transform -translate-x-1/2 text-center px-4 w-full max-w-6xl">
+            <div className="absolute bottom-30 sm:bottom-16 md:bottom-30 left-1/2 transform -translate-x-1/2 text-center px-4 w-full max-w-6xl">
                 <h1 className="text-[28px] leading-tight md:text-[64px] font-bold text-white drop-shadow-lg">
                     Chattogram Royal Is Arriving
                 </h1>

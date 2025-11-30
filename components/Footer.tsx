@@ -10,7 +10,7 @@ const footerLinks = [
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='px-2 md:px-0'>
 
             {/* BIG TITLE */}
             <h4 className={`bg-primary-color-four ${manrope.className} text-center text-5xl md:text-7xl lg:text-8xl text-white py-10 md:py-12`}>
