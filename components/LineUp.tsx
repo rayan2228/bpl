@@ -101,18 +101,29 @@ const LineUp = () => {
                 </div>
             </div>
 
-            {/* Responsive Floating Banner */}
             <h6
-                className="bottom-0 left-1/2 absolute text-primary-color-four px-4 py-3 transform -translate-x-1/2 flex items-center gap-3 w-full max-w-[462px] justify-center "
+                className="
+        absolute 
+        left-1/2 
+        transform -translate-x-1/2 
+        bottom-0 
+        text-primary-color-four 
+        flex items-center gap-3 
+        w-full max-w-[462px] 
+        px-3 py-3 
+        justify-center 
+        text-sm md:text-base
+        rounded-t-2xl
+        bg-cover bg-no-repeat
+    "
                 style={{
                     backgroundImage: `url(${lineupBg.src})`,
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat",
                 }}
             >
-                <Image src={cursorIcon} alt="cursor" />
-                More players to be unveiled soon
+                <Image src={cursorIcon} alt="cursor" className="w-4 md:w-6" />
+                <span>More players to be unveiled soon</span>
             </h6>
+
         </section>
     );
 };
