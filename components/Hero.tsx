@@ -1,9 +1,10 @@
 import heroBg from "@/assets/images/heroBg.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
     return (
-        <section className="relative w-full h-[70vh] md:h-[85vh] lg:h-screen overflow-hidden">
+        <section className="relative w-full py-[400px] ">
 
             {/* Background Image */}
             <div className="absolute inset-0">
@@ -30,9 +31,9 @@ const Hero = () => {
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-black/40"></div>
 
-            {/* Text at Bottom Center */}
-            <div className="absolute bottom-6 md:bottom-12 left-1/2 transform -translate-x-1/2 text-center px-4 w-full ">
-                <h1 className="text-[28px] leading-tight md:text-[64px] font-bold text-white ">
+            {/* Text Content */}
+            <div className="absolute bottom-16 md:bottom-30 left-1/2 transform -translate-x-1/2 text-center px-4 w-full max-w-6xl">
+                <h1 className="text-[28px] leading-tight md:text-[64px] font-bold text-white drop-shadow-lg">
                     Chattogram Royal Is Arriving
                 </h1>
 
@@ -40,6 +41,17 @@ const Hero = () => {
                     The pride of the port city. The heartbeat of millions.
                 </p>
             </div>
+            {/* Scroll Down Button */}
+            <Link
+                href="#about"
+                className="absolute bottom-16 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-1 text-white"
+            >
+                {/* Animated Arrow */}
+                <div className="w-6 h-10 border-2 border-blue-900 rounded-full flex items-start justify-center after:content-[''] after:w-0.5 after:h-5 after:bg-gray-100/50 after:mt-1.5  relative after:absolute after:-bottom-10">
+                    <div className="w-3.5 h-[17px] bg-primary-color-one rounded-full animate-bounce mt-1"></div>
+                </div>
+            </Link>
+
 
         </section>
     );

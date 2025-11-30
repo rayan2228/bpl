@@ -6,6 +6,10 @@
   --primary-color-three: #ffffffc1;
   --primary-color-four: #090E17;
 }
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 @theme inline {
   --color-primary-color-one: var(--primary-color-one);
   --color-primary-color-two: var(--primary-color-two);

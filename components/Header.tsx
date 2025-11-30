@@ -16,9 +16,9 @@ const Header = () => {
         <header className={`
             border-b border-b-primary-color-one 
             bg-primary-color-four text-white 
-            py-6 md:py-8 
+            py-6 md:py-6 
             relative top-0 w-full left-0 
-            ${yantramanav.className} font-bold
+            ${yantramanav.className} font-bold 
         `}>
             <div className="container">
                 
