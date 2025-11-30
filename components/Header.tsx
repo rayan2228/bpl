@@ -4,7 +4,7 @@ import { LuFacebook, LuInstagram, LuTwitter, LuYoutube } from "react-icons/lu";
 const yantramanav = Yantramanav({ subsets: ['latin'], weight: ["700"] })
 const Header = () => {
     return (
-        <header className={`border-b border-b-primary-color-one pb-4 py-8 bg-primary-color-four absolute top-0 w-full left-0 text-white ${yantramanav.className} font-bold`}>
+        <header className={`border-b border-b-primary-color-one pb-4 py-8 bg-primary-color-four relative top-0 w-full left-0 text-white ${yantramanav.className} font-bold`}>
             <div className="container">
                 <div className="flex justify-between">
                     <div className="flex items-center gap-2">
